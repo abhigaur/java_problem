@@ -23,6 +23,8 @@ public class FindDuplicateChar {
 
 			if (count > 1 && chr[i] != '0') {
 				System.out.println(chr[i]);
+				
+				System.out.println("test");
 			}
 
 		}
