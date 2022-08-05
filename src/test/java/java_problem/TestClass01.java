@@ -5,30 +5,41 @@ import java.util.Arrays;
 public class TestClass01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		try {
-			int x = 10;
-			int y = x / 0;
-			System.out.println(y);
-		} catch (ArithmeticException e) {
-
-			int x = 10;
-			int y = x / 3;
-			System.out.println(y);
-
-		}
-
-		catch (Exception e) {
-
-			int x = 10;
-			int z = x / 3;
-			System.out.println(z);
-
-		}
-
-		System.out.println("abhilash2");
-
+		
+		
+	String s="this is taht";
+	//this
+	
+    //String[] splt = s.split(" ");
+    
+    char[] chr = s.toCharArray();
+    
+    
+    for(int i=0;i<chr.length;i++)
+    {
+    	
+    	//System.out.println(chr[i]);
+    	int count=1;
+    	
+    	for(int j=i+1;j<chr.length;j++)
+    	{
+    		
+    		if(chr[i]==chr[j] && chr[j]!=' ')
+    		{
+    			chr[j]=' ';
+    			
+    			System.out.println("Repeating char is"+chr[i]);
+    			count ++;
+    		}
+    		
+    		
+    	}
+    	
+    	
+    }
+    
+    
 	}
+	
 
 }

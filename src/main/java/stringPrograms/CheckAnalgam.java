@@ -7,17 +7,26 @@ public class CheckAnalgam {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		// Analgam means both string having same char not matter what is the sequnece
 		
 String s="aba";
 
-String s1="aba";
+String s1="aab";
+// string having space
 
+/*
+ * char[] schar = s.replaceAll("\\s", "").toCharArray();
+ * 
+ * char[] schar1 = s1.replaceAll("\\s", "").toCharArray();
+ */
 		
-		char[] schar = s.replaceAll("\\s", "").toCharArray();
-		
-		
-		char[] schar1 = s1.replaceAll("\\s", "").toCharArray();
-		
+
+
+char[] schar = s.toCharArray();
+
+
+char[] schar1 = s1.toCharArray();
+
 	  Arrays.sort(schar);
 		Arrays.sort(schar1);
 		
