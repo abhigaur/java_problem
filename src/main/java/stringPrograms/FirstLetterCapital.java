@@ -23,7 +23,7 @@ public class FirstLetterCapital {
 			//System.out.println(firstChar.toUpperCase());
 		
 			blank=firstChar.toUpperCase()+remainingString+" ";
-			System.out.println(blank);
+			System.out.print(blank);
 					
 		}
 
