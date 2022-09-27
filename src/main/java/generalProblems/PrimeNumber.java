@@ -32,7 +32,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		boolean value = PrimeNumber.checkPRime(17);
+		boolean value = PrimeNumber.checkPRime(1);
 		
 		if(value)
 		{
