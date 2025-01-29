@@ -1,11 +1,12 @@
-package generalProblems;
+package testproject;
+
+
+import java.util.Scanner;
 
 public class PrimeNumber {
 
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
         int m = 0, flag = 0;
         int n = 4;//it is the number to be checked
         m = n / 2;
