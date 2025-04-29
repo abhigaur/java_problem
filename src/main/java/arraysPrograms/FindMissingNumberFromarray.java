@@ -43,26 +43,26 @@ public class FindMissingNumberFromarray {
 		 */		
 		
 		//Second way
-		
-		int size = arr.length;
-		
-		int sumActual=0;
 
-		int sumExpected=0;
-		for(int i=0;i<arr.length;i++)
-		{
-			sumActual=sumActual+arr[i];
+		int min = arr[0];
+		int max = arr[0];
+		int actualSum = 0;
+
+		for (int i = 0; i < arr.length; i++) {
+			actualSum = arr[i]+actualSum;
+
+			if (arr[i] < min) {
+				min = arr[i];
+			}
+			if (arr[i] > max) {
+				max = arr[i];
+			}
 		}
-		
-		System.out.println(sumActual);
-		for(int i=1;i<=size+1;i++)
-		{
-			sumExpected=sumExpected+i;
-		}
-		
-		System.out.println(sumExpected);
-		
 
-	}
+		int expectedSum = (max * (max + 1)) / 2 - ((min - 1) * min) / 2;
+		int missingNumber = expectedSum - actualSum;
 
-}
+		System.out.println("Missing number is: " + missingNumber);
+
+
+	}}

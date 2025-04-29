@@ -8,7 +8,7 @@ public class ReplaceWhiteSpaceString {
 		
 		String s= "this    is aa good boysss   ";
 		
-		String afterRemovingSpace = s.replaceAll("\\s", "");
+		String afterRemovingSpace = s.replaceAll(" ", "");
 		
 		System.out.println(afterRemovingSpace);
 

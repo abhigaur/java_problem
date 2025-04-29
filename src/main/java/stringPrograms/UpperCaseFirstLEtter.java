@@ -22,8 +22,7 @@ public class UpperCaseFirstLEtter {
 			
 			 String first=splt[i].substring(0,1);  
 		        String afterfirst=splt[i].substring(1);  
-		        String capitalizeWord = first.toUpperCase()+afterfirst+" ";  
-		        
+		        String capitalizeWord = first.toUpperCase()+afterfirst+" ";
 		        System.out.print(capitalizeWord);
 		 
 		 
