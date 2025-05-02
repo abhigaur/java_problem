@@ -53,6 +53,26 @@ public class DoubleLetterSquenceLetter {
 
 		}
 
+
+		/*
+
+
+		String[] splt=s.split(" ");
+
+        for(int i=0;i<splt.length;i++)
+        {
+            char[] chr=splt[i].toCharArray();
+            for(int j=0;j<chr.length-1;j++)
+            {
+                if(chr[j]==chr[j+1])
+                {
+                    System.out.println(splt[i]);
+                    break;
+                }
+            }
+        }
+		 */
+
 	}
 
 }

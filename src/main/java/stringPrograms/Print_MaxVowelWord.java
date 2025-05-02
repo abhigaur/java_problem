@@ -10,7 +10,7 @@ public class Print_MaxVowelWord {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s = "good auuu";
+		String s = "oo auuu";
 
 		String[] words = s.split(" ");
 		
